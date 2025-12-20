@@ -13,7 +13,7 @@ firstly make a file in terminal
  continously use git status in between
 and to push we can use either https or ssh
 
-/  Boolean
+// Boolean
 
 //   let hasdiscountcode =true
 //   function order(){
