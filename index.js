@@ -1,58 +1,53 @@
- let firstcard =11;
- let secondcard =10;
- let sum = firstcard + secondcard
- console.log(sum)
+ console.log("js connected")
+ 
+ let firstCard =11;
+ let secondCard =10;
+ let sum = firstCard + secondCard;
+ console.log(sum);
+ let hasblackjack =false;
+ let isAlive = true;
+ let message ="";
 
-//  if (sum > 21){
-//     console.log ("you lost")
-//  }
-//  else if (sum < 21){
-//     console.log("do you want to draw a card ?")
-//  }
-//  else if (sum ==21){
-//     console.log("wohoo you've won the blackjacck game.")
-//  }
+
+//  if(sum<=20){
+//         message="do you want to draw a new card?";
+
+//     }
+//     else if (sum==21){
+//         message="wohoo you've won the blackjacck game.";
+//         hasblackjack=true;
+//     }
+//     else{
+//        message="You're out of the game.";
+//         isAlive=false;
+        
+//     }
+//     console.log(message);
+
+
  if(sum<=20){
-        console.log("do you want to draw a new card?")
+        console.log("do you want to draw a new card?");
+
     }
     else if (sum==21){
-        console.log("wohoo you've won the blackjacck game.")
+        console.log("wohoo you've won the blackjacck game.");
+        hasblackjack=true;
     }
     else{
-        console.log("You're out of the game.")
+        console.log("You're out of the game.");
+        isAlive=false;
+        
     }
+    console.log(isAlive);
 
 
- let age =20
- if (age<21){
-    console.log("sorry ! you cant enter the club.")
- }
- else{
-    console.log("Welcome !")
- }
 
- let age1=101
- if (age1<100){
-    console.log("Sorry NOT elegible.")
- }
- else if (age1==100){
-    console.log("Here is your birthday card from the king !")
- }
- else{
-    console.log("Not elegible , You already gotten one.")
- }
 
-//  Boolean
 
-  let hasdiscountcode =true
-  function order(){
-  if (hasdiscountcode){
-    console.log("discount applied.")
-    hasdiscountcode=false
-  }
-  else{
-    console.log("No discount applied.")
-  }
-}
-order()
-order()
+
+ 
+
+
+
+
+

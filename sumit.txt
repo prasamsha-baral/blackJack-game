@@ -12,3 +12,32 @@ firstly make a file in terminal
 			git commit 
  continously use git status in between
 and to push we can use either https or ssh
+
+/  Boolean
+
+//   let hasdiscountcode =true
+//   function order(){
+//   if (hasdiscountcode){
+//     console.log("discount applied.")
+//     hasdiscountcode=false
+//   }
+//   else{
+//     console.log("No discount applied.")
+//   }
+// }
+// order() 
+// order()
+
+
+//  different
+
+ let age1=101
+ if (age1<100){
+    console.log("Sorry NOT elegible.");
+ }
+ else if (age1==100){
+    console.log("Here is your birthday card from the king !");
+ }
+ else{
+    console.log("Not elegible , You already gotten one.");
+ }
