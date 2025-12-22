@@ -8,10 +8,17 @@
 </head>
 <body>
     <h1>Blackjack</h1>
-    <p id="playel">Want to play a round?</p>
-    <p>Cards:</p>
-    <p>Sum:</p>
-    <button  onclick="startGame()">START GAME</button>
+    <p id="play-el">Want to play a round?</p>
+    <p>Cards:
+        <span id="card-el"></span>
+    </p>
+    <p>Sum:
+        <span id="sum-el"></span>
+    </p>
+    <button  onclick="rendergame()">START GAME</button>
+    <br>
+
+    <button  onclick="newcard()">New CARD </button>
     <script src="index.js"></script>
 </body>
 </html> 
