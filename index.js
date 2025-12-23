@@ -1,9 +1,7 @@
  console.log("js connected")
- 
- let firstCard =getrandomcard()
- let secondCard =getrandomcard()
- let sum = firstCard + secondCard;
- let cards = [firstCard , secondCard]
+  
+ let sum = 0;
+ let cards = []
  let hasblackjack =false;
  let isAlive = true;
  let message =""
@@ -11,12 +9,30 @@
 console.log(playel)
 let sumel = document.querySelector("#sum-el")
 let cardel =document.getElementById("card-el")
+
 function  startGame(){
+
+    firstcard = getrandomcard()
+    secondcard = getrandomcard()
+    
+    cards=[firstCard, secondCard]
+    sum= cards[0]+cards[1]
+
    rendergame()
 }
 
 function getrandomcard(){
-   return Math.round(Math.random()*10)  
+   let randomNumber= Math.round(Math.random()*13) +1   
+    if (randomNumber===1){
+        return 11;
+    }
+    else if(randomNumber>10){
+        return 10
+    }
+    else{
+        return randomNumber;
+    }
+
 }
 
 
